@@ -5,7 +5,7 @@
 -- Host: 127.0.0.1:3306
 -- Generation Time: Sep 18, 2018 at 06:06 AM
 -- Server version: 5.7.19
--- PHP Version: 5.6.31
+-- PHP Version: 5.6.
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZER
 SET AUTOCOMMIT = 0;
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `customer` (
   `name` varchar(200) NOT NULL,
   `mobile` varchar(200) NOT NULL,
   `email` varchar(200) NOT NULL,
-  `address` varchar(255) NO
+  `address` varchar(255)
   `customer_image` varchar(500) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=110 DEFAULT CHARSET=latin1;
