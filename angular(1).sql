@@ -10,7 +10,7 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZER
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = "+0
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `customer` (
   `name` varchar(200) NOT NULL,
   `mobile` varchar(200) NOT NULL,
   `email` varchar(200) NOT NULL,
-  `address` varchar(255) NOT NULL,
+  `address` varchar(255) NO
   `customer_image` varchar(500) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=110 DEFAULT CHARSET=latin1;
